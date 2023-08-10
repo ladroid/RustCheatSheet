@@ -33,6 +33,7 @@
     + [4. **Channels**](#4---channels--)
     + [5. **Barriers**](#5---barriers--)
   * [Third](#third-1)
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents</a></i></small> 
 
 ## First
 
