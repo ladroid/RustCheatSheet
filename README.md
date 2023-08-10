@@ -1,5 +1,6 @@
 # Cheat sheet Rust
 <h3 align="center">Table of Content</h3>
+
 - [Cheat sheet Rust](#cheat-sheet-rust)
   * [First](#first)
   * [Second](#second)
