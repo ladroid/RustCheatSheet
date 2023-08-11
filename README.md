@@ -33,7 +33,6 @@
     + [3. **Rc (Reference Counting) and Arc (Atomic Reference Counting)**](#3---rc--reference-counting--and-arc--atomic-reference-counting---)
     + [4. **Channels**](#4---channels--)
     + [5. **Barriers**](#5---barriers--)
-  * [Third](#third-1)
 
 ------
  
@@ -1447,7 +1446,3 @@ fn main() {
     }
 }
 ```
-
-Remember, the right tool depends on the exact nature of your problem. Threads, Mutexes, Channels, Arcs, and Barriers are all tools in your concurrency toolbox, and each has its own strengths and ideal use cases. Always consider the nature of your problem, benchmark different solutions, and select the tool that fits best.
-
-## Third
