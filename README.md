@@ -398,7 +398,7 @@ Here's what's happening in the code:
 
 - The `parse_number` function takes a string and tries to parse it into an integer. If this fails, it returns an error.
 - In `main`, we call `parse_number` twice: once with a string that can be parsed into a number, and once with a string that can't. In each case, we use a `match` statement to handle the `Ok` and `Err` cases.
-- The `?` operator can be used to propagate errors. If the expression before `?` is an `Err`, it will return from the current function and give the error to the caller. If it's `Ok`, it will take the value out of `Ok` and continue the code. Note: As of my knowledge cutoff in September 2021, the `?` operator can only be used in functions that return a `Result` (or `Option`). It can't be used in the `main` function directly. 
+- The `?` operator can be used to propagate errors. If the expression before `?` is an `Err`, it will return from the current function and give the error to the caller. If it's `Ok`, it will take the value out of `Ok` and continue the code. Note: The `?` operator can be used in functions that return a `Result` (or `Option`). It can't be used in the `main` function directly. 
 
 Compile and run this program to see how error handling in Rust works. After this tutorial, you should have a basic understanding of the `Result` type and how to use it for error handling.
 
